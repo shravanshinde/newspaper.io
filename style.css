@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head1{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.head2{
+    font-family: 'UnifrakturCook';font-size: 22px;
+    font-size: 40px;
+}
+.head3{
+    text-align: center;
+    margin-top: 25px;   
+}
+.heading1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.hr1{
+    width: 600px;
+    margin: auto;
+}
+#container{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.left_container{
+ width: 65%;
+ flex-direction: column;
+
+}
+
+
+.left_main_container{
+    display: flex;
+    margin-top: 20px;
+}
+.left{
+    width: 30%;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+
+.left>hr{
+    margin: auto;
+    width: 70%;
+
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.right_top>h1{
+    text-align: center;
+
+}
+.right_content{
+    display: flex;
+}
+.right_content_left, .right_content_center, .right_content_right{
+    width: 200px;
+}
+.right_middle{
+    text-align: center;
+}
+
+ .right_container{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-left: 1px solid black;
+}
+
+.hd1>h1{
+    text-align: center;
+}
+.cnt1{
+    display: flex;
+    margin-left: 10px;
+}
+.sub_cnt, .sub_cnt2{
+    width: 300px;
+
+}
